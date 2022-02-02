@@ -56,7 +56,16 @@ namespace Resto.Front.Api.Sagi.Core.Services
 				BranchId = branch.Id,
 				UserId = customerByCode.Id
 			};
-			var award = _sagiRestClient.GetAward(getAwardRequest);
+
+			// Default result.
+			var awardResponse = new AwardResponse
+			{
+				Id = string.Empty,
+				ReceivedStampCount = 0
+			};
+
+			var awardResult = _sagiRestClient.GetAward(getAwardRequest);
+			if (awardResult != null) awardResponse = awardResult;
 
 			var getCustomerBalanceRequest = new GetBalanceForBranchRequest
 			{
@@ -66,7 +75,7 @@ namespace Resto.Front.Api.Sagi.Core.Services
 			};
 			var customerBalance = _sagiRestClient.GetBalanceForBranch(getCustomerBalanceRequest);
 
-			var customer = customerByCode.ToDomain(customerBalance, award);
+			var customer = customerByCode.ToDomain(customerBalance, awardResponse);
 			return branch.ToDomain(customer);
 		}
 
