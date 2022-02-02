@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SystemKey" xml:space="preserve">
+    <value>Sagi</value>
+  </data>
+  <data name="SystemName" xml:space="preserve">
+    <value>Sagi</value>
+  </data>
+  <data name="TitleAccrualBonuses" xml:space="preserve">
+    <value>Начисление бонуса</value>
+  </data>
+  <data name="TitleAccrualBonusesInfoMessage" xml:space="preserve">
+    <value>Клиенту будет начислено {0} бонусов ({1}% от суммы чека). Начислить бонусы?</value>
+  </data>
+  <data name="TitleAccrualBonusesSucceeded" xml:space="preserve">
+    <value>Начисление бонусов Sagi прошло успешно!</value>
+  </data>
+  <data name="TitleAddStamp" xml:space="preserve">
+    <value>Выдача штампиков</value>
+  </data>
+  <data name="TitleAddStampInfoMessage" xml:space="preserve">
+    <value>У клиента {0} из {1} штампиков. Выдать штампик клиенту?</value>
+  </data>
+  <data name="TitleAmountToPay" xml:space="preserve">
+    <value>Сумма к оплате</value>
+  </data>
+  <data name="TitleCancelTransactionPleaseWaiting" xml:space="preserve">
+    <value>Отмена транзакции в Sagi. Пожалуйста подождите...</value>
+  </data>
+  <data name="TitleCannotGetUserDataByOrderId" xml:space="preserve">
+    <value>Не удалось получить данные Sagi по идентификатору заказа</value>
+  </data>
+  <data name="TitleCodeInput" xml:space="preserve">
+    <value>Введите 6-значный код клиента</value>
+  </data>
+  <data name="TitleCodeOrNumberWasNotEntered" xml:space="preserve">
+    <value>Не был передан номер телефона или 6-значный код</value>
+  </data>
+  <data name="TitleCustomerFound" xml:space="preserve">
+    <value>Клиент найден. Доступно бонусов: {0}. Количество штампиков {1} из {2}</value>
+  </data>
+  <data name="TitleCustomerIdentification" xml:space="preserve">
+    <value>Идентификация клиента Sagi</value>
+  </data>
+  <data name="TitleCustomerNotFound" xml:space="preserve">
+    <value>Клиент не найден</value>
+  </data>
+  <data name="TitleCustomerRefusedAccrueBonuses" xml:space="preserve">
+    <value>Клиент отказался от начисление бонуса</value>
+  </data>
+  <data name="TitleDataProcessingPleaseWaiting" xml:space="preserve">
+    <value>Обработка данных Sagi. Пожалуйста, подождите...</value>
+  </data>
+  <data name="TitleDate" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="TitleGiveAward" xml:space="preserve">
+    <value>Выдача подарка</value>
+  </data>
+  <data name="TitleGiveAwardInfoMessage" xml:space="preserve">
+    <value>У клиента {0} из {1} штампиков. Выдать подарок клиенту?</value>
+  </data>
+  <data name="TitleNotEnoughBonusesToWriteOff" xml:space="preserve">
+    <value>Недостаточно бонусов для списания</value>
+  </data>
+  <data name="TitleOrderAmount" xml:space="preserve">
+    <value>Сумма заказа</value>
+  </data>
+  <data name="TitleOrderId" xml:space="preserve">
+    <value>Номер заказа</value>
+  </data>
+  <data name="TitleOrderIdMessage" xml:space="preserve">
+    <value>Идентификатор заказа: {0}</value>
+  </data>
+  <data name="TitlePaymentForEmptyOrderNotPossible" xml:space="preserve">
+    <value>Оплата пустого заказа невозможна!</value>
+  </data>
+  <data name="TitlePhoneInput" xml:space="preserve">
+    <value>Введите номер телефона клиента</value>
+  </data>
+  <data name="TitlePrintSlipReceipt" xml:space="preserve">
+    <value>Печать Slip чека...</value>
+  </data>
+  <data name="TitleSagiSettings" xml:space="preserve">
+    <value>Sagi: настройки</value>
+  </data>
+  <data name="TitleSagiSideError" xml:space="preserve">
+    <value>Ошибка на стороне Sagi {0}</value>
+  </data>
+  <data name="TitleSearchCustomerByCode" xml:space="preserve">
+    <value>Поиск клиента Sagi по коду {0}</value>
+  </data>
+  <data name="TitleSearchCustomerByPhone" xml:space="preserve">
+    <value>Поиск клиента Sagi по телефону {0}</value>
+  </data>
+  <data name="TitleStampCountInfoMessage" xml:space="preserve">
+    <value>Введите количество начисляемых штампиков. (У клиента {0} из {1} штампиков)</value>
+  </data>
+  <data name="TitleStampFailedMessage" xml:space="preserve">
+    <value>Количество начисляемых штампиков не может быть больше {0}.</value>
+  </data>
+  <data name="TitleSystem" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="TitleTransactionDataSaved" xml:space="preserve">
+    <value>Данные Sagi успешно сохранены. Можно оплачивать заказ!</value>
+  </data>
+  <data name="TitleTransactionId" xml:space="preserve">
+    <value>ID транзакции</value>
+  </data>
+  <data name="TitleTransactionProcessingPleaseWaiting" xml:space="preserve">
+    <value>Обработка транзакции Sagi. Пожалуйста подождите...</value>
+  </data>
+  <data name="TitleUserRefusedInput" xml:space="preserve">
+    <value>Пользователь отказался от ввода</value>
+  </data>
+  <data name="TitleWriteOffBonuses" xml:space="preserve">
+    <value>Списано бонусов</value>
+  </data>
+  <data name="TitleWriteOffBonusesInfoMessage" xml:space="preserve">
+    <value>Введите количество бонусов, которое хотите списать. (Доступно {0} бонусов)</value>
+  </data>
+  <data name="TitleWriteOffBonusesSucceeded" xml:space="preserve">
+    <value>Списание бонусов Sagi прошло успешно!</value>
+  </data>
+</root>

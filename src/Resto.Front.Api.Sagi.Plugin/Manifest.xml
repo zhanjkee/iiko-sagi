@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+	<FileName>Resto.Front.Api.Sagi.Plugin.dll</FileName>
+	<TypeName>Resto.Front.Api.Sagi.Plugin.SagiPaymentPlugin</TypeName>
+	<ApiVersion>V7Preview7</ApiVersion>
+	<LicenseModuleId>21016318</LicenseModuleId>
+</Manifest>

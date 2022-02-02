@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Resto.Front.Api.Sagi.Client.Autofac\Resto.Front.Api.Sagi.Client.Autofac.csproj" />
+    <ProjectReference Include="..\Resto.Front.Api.Sagi.Core.Autofac\Resto.Front.Api.Sagi.Core.Autofac.csproj" />
+    <ProjectReference Include="..\Resto.Front.Api.Sagi.DataAccess.Autofac\Resto.Front.Api.Sagi.DataAccess.Autofac.csproj" />
+  </ItemGroup>
+
+</Project>

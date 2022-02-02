@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Resto.Front.Api.Sagi.Client.Interfaces\Resto.Front.Api.Sagi.Client.Interfaces.csproj" />
+		<ProjectReference Include="..\Resto.Front.Api.Sagi.Core.Interfaces\Resto.Front.Api.Sagi.Core.Interfaces.csproj" />
+		<ProjectReference Include="..\Resto.Front.Api.Sagi.DataAccess.Interfaces\Resto.Front.Api.Sagi.DataAccess.Interfaces.csproj" />
+	</ItemGroup>
+
+</Project>
